@@ -2,7 +2,7 @@ defmodule MacrosElixirTest do
   use ExUnit.Case
   doctest MacrosElixir
 
-  test "greets the world" do
-    assert MacrosElixir.hello() == :world
+  test "the truth" do
+    assert 1 + 1 == 2
   end
 end

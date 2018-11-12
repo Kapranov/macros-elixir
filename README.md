@@ -1,21 +1,14 @@
 # MacrosElixir
 
-**TODO: Add description**
+Elixir is modern, dynamic and functional language that embrace
+concurrency and immutability and provide rich metaprogramming
+capabilities through macros. To understand macros let us look at how
+typically code execution works in any language —
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `macros_elixir` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:macros_elixir, "~> 0.1.0"}
-  ]
-end
+```bash
+Code → Lexical Analysis & Parsing → AST → Execution
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/macros_elixir](https://hexdocs.pm/macros_elixir).
+**TODO: Add description**
 
+### 12 November 2018 by Oleg G.Kapranov
